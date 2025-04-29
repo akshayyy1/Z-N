@@ -108,7 +108,7 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `📻  Ziron Music 🎶`, type: ActivityType.Watching }],
+      activities: [{ name: `📻  Ziron Team 🎶`, type: ActivityType.Watching }],
       status: 'idle',
     });
   }, 2000); 
